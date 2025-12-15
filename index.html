@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vista Completa</title>
+    <style>
+        /* CSS comprimido para asegurar pantalla completa y ocultar barras */
+        body,html{margin:0;padding:0;height:100%;overflow:hidden;background:#000}
+    </style>
+</head>
+<body>
+    <script>
+        /* Lógica ofuscada simple.
+           La URL real está codificada en Base64 para no mostrarse en texto plano.
+        */
+        (function() {
+            // Cadena Base64 de tu URL: https://dmkqwoikme321i4m0214nm.github.io/adw1323123c-2-3-72348423c/
+            var _s = "aHR0cHM6Ly9kbWtxd29pa21lMzIxaTRtMDIxNG5tLmdpdGh1Yi5pby9hZHcxMzIzMTIzYy0yLTMtNzIzNDg0MjNjLw==";
+            
+            var _d = atob(_s); // Decodifica la URL
+            
+            var _i = document.createElement('iframe');
+            _i.style.position = "absolute";
+            _i.style.top = "0";
+            _i.style.left = "0";
+            _i.style.width = "100%";
+            _i.style.height = "100%";
+            _i.style.border = "none";
+            _i.setAttribute("allowfullscreen", "true");
+            _i.setAttribute("webkitallowfullscreen", "true");
+            _i.setAttribute("mozallowfullscreen", "true");
+            _i.src = _d;
+            
+            document.body.appendChild(_i);
+        })();
+    </script>
+</body>
+</html>
